@@ -57,7 +57,8 @@ When no factor is defined, the library uses predetermined optimum factor of 0.28
 colorblindness.hContrast(string inputFile, string outputFile, int factor);
 //The factor range from 1 to 128
 
-colorblindness.hContrast("/Desktop/input.jpg","/Desktop/output.jpg", 50);```
+colorblindness.hContrast("/Desktop/input.jpg","/Desktop/output.jpg", 50);
+```
 
 ## Correcting the image using CIE*LAB Color Contrast Method
 
