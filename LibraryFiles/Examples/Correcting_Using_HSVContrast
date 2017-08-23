@@ -1,0 +1,22 @@
+import colorblindness.*;
+import processing.glu.*;
+import processing.glu.tessellator.*;
+
+void setup(){
+
+		//hContrast corrects the image using HSV contrast method
+  
+  	//Parameters -
+ 	    //String - Input Source - Absolute Address of the Input File
+  	 //String - Output Destination - Absolte Address of the output File
+  	 //Integer - Factor - Factor of contrast increase (It accepts value from 1 to 128)
+  	
+
+         colorblindness.labMethod("/Users/mycomputer/Desktop/Sample.png","/Users/mycomputer/Desktop/SampleOutput.png",85);
+}
+
+void draw(){
+	
+  	//Draw anything on the board, save it using PImage
+  	//Open the Image using colorblindness library and process it
+}

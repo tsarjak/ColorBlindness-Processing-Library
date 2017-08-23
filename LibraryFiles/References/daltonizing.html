@@ -1,0 +1,24 @@
+<html>
+
+<h2 id="simulatingcorrectingusingcolordifferencemethoddaltonization">Simulating/Correcting using color difference method (Daltonization)</h2>
+
+<p>The "colorblindness.simulate() takes 4 parameters
+1) Type of colorblindness
+2) Absolute address of input file
+3) Absolute Address of output file
+4) Simulate or Correct the image</p>
+
+<pre><code class="Java language-Java">colorblindness.simulate(int type, string inputAddress, string outputAddress, boolean correct);
+
+//For example, the following line simulates the image at /Desktop/input.jpg 
+//as per protanopia and stores the output at /Desktop/output.jpg
+
+colorblindness.simulate(1,"/Desktop/input.jpg","/Desktop/output.jpg",false);
+</code></pre>
+
+<p>Options for type - 
+1 -> Protanopia
+2 -> Deutranopia
+3 -> Tritanopia</p>
+
+</html>

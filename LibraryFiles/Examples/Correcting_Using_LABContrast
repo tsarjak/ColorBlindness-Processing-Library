@@ -1,0 +1,24 @@
+import colorblindness.*;
+import processing.glu.*;
+import processing.glu.tessellator.*;
+
+void setup(){
+
+		//labMethod corrects the image using CIE*LAB contrast method
+  
+  	//Parameters -
+ 	 //String - Input Source - Absolute Address of the Input File
+  	//String - Output Destination - Absolte Address of the output File
+  
+  	//Optional Paramater - 
+  	//Float - Factor - Factor of contrast increase
+  	//On no input, function uses precalculated optimal factor of 0.35
+
+         colorblindness.labMethod("/Users/mycomputer/Desktop/5.png","/Users/mycomputer/Desktop/5ot.png",0.25);
+}
+
+void draw(){
+	
+  	//Draw anything on the board, save it using PImage
+  	//Open the Image using colorblindness library and process it
+}
