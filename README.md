@@ -7,7 +7,7 @@ You can find the full source for the library [here](https://github.com/tsarjak/c
 ## Importing the library
 Start with importing the library to your code
 ```Java
-import colorblindness;
+import colorblindness.*;
 import processing.glu.*;
 import processing.glu.tessellator.*;
 ```
@@ -69,7 +69,7 @@ colorblindness.labMethod(string inputFile, string outputFile, float factor);
 colorblindness.labMethod(string inputFile, string outputFile);
 
 
-colorblindness.rgbContrast("/Desktop/input.jpg","/Desktop/output.jpg",0.40);
+colorblindness.labMethod("/Desktop/input.jpg","/Desktop/output.jpg",0.40);
 ```
 
 When no factor is defined, the library uses predetermined optimum factor of 0.35
